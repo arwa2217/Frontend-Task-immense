@@ -1,0 +1,107 @@
+.mainContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .logoContainer{
+        width: 300px;
+        height: 50px;
+        margin: 20px auto;
+        img{
+        width: 300px;
+        height: 50px;
+        }
+    }
+    .dividerStyle {
+            width: 100%;
+            height: 3px;
+        }
+                 .container {
+                     display: flex;
+                     flex-direction: row;
+                     width: 100%;
+                     height: 650px;
+                    
+                     .createUserContainer{
+                        display: flex;
+                        width: 700px;
+                        height: 650px;
+                        border-right: 1px solid var(--grey1);
+        
+                        .formContainer{
+                            flex-direction: column;
+                            margin: 50px auto 0px auto;
+                                width: 350px;
+                                height: 450px;
+                                
+                                .titleText{
+                                    font-size:var(--font-25) ;
+                                    font-weight:var(--font-semibold);
+                                    padding-left: 5px;
+                                }
+                                .loginForm {
+                                                                    width: 100%;
+                                                                    
+                    
+                                                                    .iconLabelStyle {
+                                                                        display: flex;
+                                                                        flex-direction: row;
+                                                                        margin-top: 10px;
+                        
+                                                                        .labelStyle {
+                                                                            font-weight: var(--font-semibold);
+                                                                            font-size: var(--font-14);
+                                                                            color: var(--blue1);
+                                                                            padding: 5px;
+                                                                        }
+                                                                    }
+                                
+                                                                    .inputFieldStyle {
+                                                                        width: 100%;
+                                                                        max-width: 366px;
+                                                                        padding:5px;
+                                                                        font-size: var(--font-14);
+                                                                        border-radius: 10px;
+                                                                        color: var(--black1);
+                                                                        border: 1px solid var(--grey1);
+                                
+                                                                        &:focus {
+                                                                            outline: none !important;
+                                                                            border: 1px solid var(--grey1);
+                                                                        }
+                                                                    }
+                                
+                                                                    .errorText {
+                                                                        color: var(--errorColor);
+                                                                        font-size: var(--font-14);
+                                                                        font-weight: var(--font-medium);
+                                
+                                                                    }
+                                }
+                                .submitButtonStyle {
+                                    margin-top:30px;
+                                    width: 100% !important;
+                                    max-width: 366px !important;
+                                    cursor: pointer;
+                                    
+                                }
+                        }
+                     }
+                     .userListContainer{
+                        margin: 50px auto 0px auto;
+                        width: 400px;
+                        height: 400px;
+                        
+                        .titleText{
+                        font-size: var(--font-25);
+                            font-weight: var(--font-semibold);
+                            margin-bottom: 10px;
+                        }
+                     }
+                    .dividerCustomStyle {
+                      width: 100%;
+                       height: 1px;
+                      
+                    }
+                 }
+}

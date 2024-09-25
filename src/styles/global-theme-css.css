@@ -1,0 +1,7 @@
+
+.errorText {
+  color: var(--errorColor);
+  font-size: var(--font-12);
+  font-weight: var(--font-medium);
+  padding: 5px 0px;
+}
